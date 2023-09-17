@@ -14,7 +14,7 @@ public class loginTest extends BaseClass {
 		
 		initializeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		
+		//added to test something
 		Thread.sleep(2000);
 		
 		loginPageObjects lp= new loginPageObjects(driver);
